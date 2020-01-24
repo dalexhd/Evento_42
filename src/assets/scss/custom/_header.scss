@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+ img {
+   float: left;
+   margin-left: 20px;
+   margin-top: 10px;
+ }
+ ul {
+   text-align: right;
+   padding: 0;
+   list-style-type: none;
+   > li {
+    display: inline-block;
+    margin: 0 10px;
+    a {
+      padding: 10px;
+      background-color: white;
+      color: #42b983;
+      text-decoration: none;
+    }
+    display: inline;
+   }
+ }
+}
